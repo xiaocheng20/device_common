@@ -30,8 +30,8 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 import androidx.preference.SwitchPreference;
 
-import org.lineageos.internal.util.FileUtils;
-import org.lineageos.internal.util.PackageManagerUtils;
+import com.android.internal.util.custom.FileUtils;
+import com.android.internal.util.custom.PackageManagerUtils;
 
 public class ButtonSettingsFragment extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
